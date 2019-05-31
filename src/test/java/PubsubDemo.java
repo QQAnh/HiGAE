@@ -58,6 +58,7 @@ public class PubsubDemo {
                 System.out.println(messageId);
             }
 
+
             if (publisher != null) {
                 // When finished with the publisher, shutdown to free up resources.
                 publisher.shutdown();
